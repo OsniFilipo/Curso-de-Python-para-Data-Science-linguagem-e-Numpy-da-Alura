@@ -41,3 +41,42 @@ Osni
 idade = 26
 idade
 ```
+# Linha 4: import pandas as pd
+
+- Importação de biblioteca: Você está importando a biblioteca Pandas, que é uma das principais bibliotecas para análise de dados em Python
+
+- lias (``as pd``): Você está criando um apelido ``pd`` para a biblioteca pandas
+
+- Isso é uma convenção comum na comunidade Python
+
+- Permite escrever menos código (usar ``pd`` em vez de ``pandas`` repetidamente)
+
+- Comentário: O Pandas fornece estruturas de dados poderosas como DataFrames e Series para manipulação eficiente de dados
+
+# Linha 5: ``notas = pd.read_csv(...)``
+
+- Esta linha tem várias partes importantes:
+
+1. Função ``read_csv()``:
+
+- Método do Pandas para ler arquivos CSV (Comma-Separated Values)
+
+- Converte os dados do arquivo em um DataFrame (estrutura tabular)
+
+2. Parâmetro da função:
+
+- Você está passando uma URL como parâmetro: ``"https://raw.githubusercontent.com/.../ratings.csv"``
+
+-  Pandas consegue ler diretamente de URLs (não precisa baixar o arquivo manualmente)
+
+3. Atribuição (``notas =``):
+
+- O DataFrame resultante é armazenado na variável ``notas``
+
+- Isso permite que você manipule os dados posteriormente
+
+4. Comentário sobre o dataset:
+
+- Pelo caminho da URL, parece ser um arquivo de avaliações (ratings) de filmes
+
+- Provavelmente contém colunas como userId, movieId, rating e timestamp
