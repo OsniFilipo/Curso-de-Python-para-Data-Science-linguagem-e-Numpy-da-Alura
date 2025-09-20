@@ -41,6 +41,7 @@ Osni
 idade = 26
 idade
 ```
+
 # Linha 4: import pandas as pd
 
 - Importação de biblioteca: Você está importando a biblioteca Pandas, que é uma das principais bibliotecas para análise de dados em Python
